@@ -34,3 +34,8 @@ declare const markdown: (
   res: express.Response,
   next: express.NextFunction
 ) => void;
+
+export const server: () => Server<
+  typeof IncomingMessage,
+  typeof ServerResponse
+>;

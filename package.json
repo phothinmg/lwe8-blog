@@ -22,8 +22,9 @@
   },
   "dependencies": {
     "@types/compression": "^1.7.5",
+    "commander": "^12.1.0",
     "compression": "^1.7.5",
     "express": "^4.21.2",
-    "showmark": "^0.6.2"
+    "showmark": "^0.6.3"
   }
 }
