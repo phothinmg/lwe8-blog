@@ -1,0 +1,29 @@
+{
+  "name": "lwe8-blog",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lwe8": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "lightningcss": "^1.28.2",
+    "showdown-prism": "^1.0.8",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/compression": "^1.7.5",
+    "compression": "^1.7.5",
+    "express": "^4.21.2",
+    "showmark": "^0.6.2"
+  }
+}
