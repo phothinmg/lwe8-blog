@@ -3,3 +3,5 @@ app
 public
 lwe8.config.js
 package-lock.json
+lib
+.gitignore

@@ -1,4 +1,4 @@
-/** @type {import("./server/index").Lwe8BlogConfig} */
+/** @type {import("./lib/index").Lwe8BlogConfig} */
 export default {
   blogTitle: "Lwe8 Blog",
   navbar: [

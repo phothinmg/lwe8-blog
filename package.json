@@ -3,17 +3,25 @@
   "version": "0.1.0",
   "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "bin": {
     "lwe8": "./bin/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "description": "",
   "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/compression": "^1.7.5",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",
     "lightningcss": "^1.28.2",
@@ -21,9 +29,12 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@types/compression": "^1.7.5",
+    "babel-loader": "^9.2.1",
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
     "commander": "^12.1.0",
     "compression": "^1.7.5",
+    "dax-sh": "^0.42.0",
     "express": "^4.21.2",
     "showmark": "^0.6.3"
   }
